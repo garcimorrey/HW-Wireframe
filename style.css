@@ -1,0 +1,86 @@
+/* GENERAL CSS RULES */
+body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+}
+
+#header, #nav, #section, #aside, #footer{
+    background: #ebebeb;
+}
+
+#article {
+    color: #ebebeb;
+    background: #777;
+}
+
+h1, h2, h3, p {
+    color: #777;
+    background: #ebebeb;
+}
+
+
+/* ModificationS */
+body {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#header, #nav, #footer {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#section, #aside {
+    width: 470px;
+    height: 280px;
+    margin-top: 20px;
+}
+
+#section {
+    float: left;
+}
+
+#aside {
+    float: right;
+}
+
+h1, h2, h3, p {
+    text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#footer {
+    width: 960px;
+    float: left;
+    margin-top: 20px;
+}
+
+#article {
+    margin: 5px;
+    padding: 5px;
+}
+
+#edittext {
+    margin: 5px;
+    color: white;
+    background: #777;
+}
+
+.smallbox {
+    height: 45px;
+    margin: 25px;
+}
+
+.clearfix {
+    content: "";
+    clear: both;
+    display: block;
+}
